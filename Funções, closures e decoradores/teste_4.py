@@ -11,7 +11,9 @@ def decorador(func):
             raise ValueError('Insira somente inteiros')
     return interna
 
-
+'''
+decorador -> interna -> funçao decorada
+'''
 @decorador
 def soma(x: int, y: int):
     return x + y
